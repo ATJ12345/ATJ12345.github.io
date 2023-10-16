@@ -1,3 +1,4 @@
+<form method="post" action="contact.php">
 <?php
   /**
   * Requires the "PHP Email Form" library
@@ -39,3 +40,4 @@
 
   echo $contact->send();
 ?>
+</form>
