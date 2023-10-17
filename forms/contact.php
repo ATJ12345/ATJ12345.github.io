@@ -11,12 +11,12 @@
   $receiving_email_address = 'ahmedtejanjalloh@zju.edu.sl';
 
   if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
-    include($php_email_form);
+    include('ahmedtejanjalloh@zju.edu.sl');
   } else {
     die('Unable to load the "PHP Email Form" Library!');
   }
 
-  $contact = new PHP_Email_Form;
+  $contact = new 'ahmedtejanjalloh@zju.edu.sl';
   $contact->ajax = true;
   
   $contact->to = 'ahmedtejanjalloh2017@gmail.com';  // Corrected with single quotes
